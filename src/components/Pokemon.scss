@@ -1,0 +1,30 @@
+.pokemon-item-container{
+    width: 200px;
+    margin: 20px;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: auto;
+}
+.pokemon-item-types{
+    list-style: none;
+}
+.pokemon-item-name{
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    text-transform: capitalize;
+}
+.pokemon-item-types-list{
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pokemon-type{
+    color:white;
+    border: solid grey 1px;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 2px 10px 2px 10px;
+    text-transform: uppercase;
+}
