@@ -1,6 +1,7 @@
-
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .app__title {
-  height: 1px;
-  overflow: hidden;
-  margin: 0;
+  text-align: center;
 }
