@@ -6,14 +6,14 @@ class Pokemon extends React.Component {
   render() {
     return (
       <div className="pokemon-item-container">
-        <img src={this.props.url} alt="" className="pokemon-item-img" />
+        <img src={this.props.url} alt={this.props.name} className="pokemon-item-img" />
         <h2 className="pokemon-item-name">{this.props.name}</h2>
         <ol className="pokemon-item-types-list">
           {this.props.types.map((types, index) => {
             return (
               <li className="pokemon-item-types" key={index}>
                 <div className="pokemon-types-continer">
-                  <h3 className="pokemon-type">{types}</h3>
+                  <p className="pokemon-type">{types}</p>
                 </div>
               </li>
             );
